@@ -1,29 +1,19 @@
-# Webbpack Express Example App
+# Evaluate a News Article with Natural Language Processing
 
-The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
+This is an application that uses HTML, CSS, Javascript, Webpack and meaningCloud API to analyze news articles by entering the URL to input field
 
-If you want to follow along, start from branch 0-initial-setup. Each branch in this project is a step along the path to creating a fully functional webpack setup. In each branch, there will be a documentation file that lists out the steps taken in that branch (each step is also roughly a git commit if you look at the history) which you can use as a checklist when setting up your own projects. 
+# Installation
+In order to install and use this project you must run three commands in the console.
 
-## What we will cover
-
-We will cover:
-
-- Webpack entry point
-- Webpack output and dist folder
-- Webpack Loaders
-- Webpack Plugins
-- Webpack Mode
-- Tools for convenient Webpack development
+npm install
+npm start
+npm run build-prod
+These two commands will install all of the dependencies needed for this project and will start the server and access it using http://localhost:8081/
 
 ## Get Up and Running
 
-Fork this repo, then clone the branch of your choice from your forked repo down to your computer:
+- this app runs on localhost:8081, but you can of course edit that in server.js
 
-```
-git clone -- git@github.com:[your-user-name]/webpack-express.git --
-```
+# Backend Server
 
-`cd` into your new folder and run:
-- ```npm install```
-- ```npm start``` to start the app
-- this app runs on localhost:8080, but you can of course edit that in server.js
+I used the meaningCloud API in order to get analysis of the news article
